@@ -3,10 +3,13 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 6rem;
+  padding: 2rem;
   min-height: 100vh;
+  width: 100%
 }
-
+.flex{
+  display: flex;
+}
 .description {
   display: inherit;
   justify-content: inherit;
@@ -33,10 +36,12 @@
   border: 1px solid rgba(var(--callout-border-rgb), 0.3);
   border-radius: var(--border-radius);
 }
-
-.code {
-  font-weight: 700;
-  font-family: var(--font-mono);
+.mt-5{
+  margin-top:5px;
+}
+.bold {
+  font-weight: 700; 
+  /* font-family: var(--font-mono); */
 }
 
 .grid {
@@ -71,7 +76,9 @@
   line-height: 1.5;
   max-width: 30ch;
 }
-
+.alignCenter{
+  text-align: center;
+}
 .center {
   display: flex;
   justify-content: center;
@@ -105,7 +112,42 @@
 }
 
 .logo {
-  position: relative;
+  width: 180px;
+  height: auto;
+}
+.formGroup > label{
+  display: block;
+  font-weight: 600;
+}
+.blueText{
+  color: #7FA1E5;
+}
+.formGroup > input{
+  display: block;
+  border: solid #000000 1px;
+  background-color: #FFFDFD;
+  border-radius: 8px;
+  height: 28px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  width: 100%;
+}
+.btnForm {
+  display: block;
+  background-color: #7FA1E5;
+  border-radius: 30px;
+  height: 41px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  width: 100%;
+  border: none;
+  color: white;
+  font-size: 25px;
+}
+.sideBar{
+  width: 25%;
+  /* height: 100vh; */
+  background-color: #7FA1E5;
 }
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {

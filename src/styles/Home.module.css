@@ -7,8 +7,25 @@
   min-height: 100vh;
   width: 100%
 }
+.profileMain {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  min-height: 100vh;
+  width: 100%
+}
+.divider{
+  border-bottom: solid 3px rgba(0, 0, 0, 0.15);
+  height: 80px;
+  width: 100%;
+  display:block
+}
 .flex{
   display: flex;
+}
+.block{
+  display: block;
+  width: 100%
 }
 .description {
   display: inherit;
@@ -43,7 +60,15 @@
   font-weight: 700; 
   /* font-family: var(--font-mono); */
 }
-
+.profileDetails{
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 5rem;
+}
+.profileDetails > p{
+  margin-top:1.5rem
+}
 .grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(25%, auto));
@@ -115,6 +140,12 @@
   width: 180px;
   height: auto;
 }
+.sideNavLogo {
+  width: 120px;
+  height: auto;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
 .formGroup > label{
   display: block;
   font-weight: 600;
@@ -144,10 +175,43 @@
   color: white;
   font-size: 25px;
 }
+.icon{
+  width: 30px;
+  height: 30px;
+  margin-bottom:5px;
+}
+.activeNav{
+  color: #AEC4EF !important;
+  background-color: white;
+  margin-left: 0rem !important;
+  margin-right: 0rem !important;
+  }
+.iconDiv{
+  color: white;
+  padding: 1.5rem;
+  border-bottom: solid white 2px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  font-size: 12px; 
+  display: block;
+}
+
 .sideBar{
-  width: 25%;
+  width: 20%;
   /* height: 100vh; */
   background-color: #7FA1E5;
+}
+.sideBarUser{
+  background-color: #9EB8EB;
+  width: 20%;
+  text-align: center
+}
+.textLight{
+  color: #9EB8EB;
+}
+.fontLg{
+  font-size: 28px;
+  font-weight: 600;
 }
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {

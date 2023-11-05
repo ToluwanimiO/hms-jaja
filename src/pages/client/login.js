@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
+import Link from 'next/link';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -41,7 +42,9 @@ export default function Home() {
                 <input />
             </div>
             <p className={`${styles.blueText} ${styles.alignCenter}`}>Forgot your password?</p>
-            <button className={styles.btnForm}>Login</button>
+            <button className={styles.btnForm}>
+              <Link href="/client/profile">Login</Link>
+            </button>
             <span className={styles.bold}>Don't have an account?</span><span className={styles.blueText}> Create one here</span>
         </form>
         </div>

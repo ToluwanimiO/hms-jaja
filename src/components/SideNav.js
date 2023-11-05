@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation";
 
 const navItems = ['Profile','Appointments','Notifications']
 
-const Header = () => {
+const sideNav = () => {
   const pathname = usePathname();
 
   return (
@@ -47,4 +47,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default sideNav;

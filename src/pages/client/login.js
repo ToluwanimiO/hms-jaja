@@ -41,8 +41,9 @@ export default function Login() {
             <button className={styles.btnForm}>
               <Link href="/client/profile">Login</Link>
             </button>
-            <span className={styles.bold}>Don't have an account?</span><span className={styles.blueText}> Create one here</span>
-        </form>
+            <span className={styles.bold}>Don't have an account?</span>
+            <span className={styles.blueText}> Create one here</span>
+          </form>
         </div>
      </main>
     </>

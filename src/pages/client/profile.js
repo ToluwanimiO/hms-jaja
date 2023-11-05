@@ -7,7 +7,7 @@ import Header from '../../components/Header';
 
 const inter = Inter({ subsets: ['latin'] })
 
-export default function Home() {
+export default function Profile() {
   const name = 'TUNDE GUNNER'
   return (
     <>

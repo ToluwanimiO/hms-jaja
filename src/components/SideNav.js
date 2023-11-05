@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation";
 
 const navItems = ['Profile','Appointments','Notifications']
 
-const sideNav = () => {
+export default function SideNav() {
   const pathname = usePathname();
 
   return (
@@ -19,8 +19,8 @@ const sideNav = () => {
         height={37}
         priority
       />
-      {navItems.map((item)=>(
-        <Link href={`/client/${item.toLowerCase()}`} className={`${pathname == `/client/${item.toLowerCase()}` ? styles.activeNav : ""} ${styles.iconDiv}`}>
+      {navItems.map((item,index)=>(
+        <Link key={index} href={`/client/${item.toLowerCase()}`} className={`${pathname == `/client/${item.toLowerCase()}` ? styles.activeNav : ""} ${styles.iconDiv}`}>
         <Image
           className={styles.icon}
           src={`/${item}.svg`}
@@ -46,5 +46,3 @@ const sideNav = () => {
     </header>
   );
 };
-
-export default sideNav;

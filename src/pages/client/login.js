@@ -19,7 +19,7 @@ export default function Login() {
           <div className={styles.alignCenter}>
             <Image
               className={styles.logo}
-              src="/ui-logo.svg"
+              src="/ui_logo.svg"
               alt="UI Logo"
               width={180}
               height={37}

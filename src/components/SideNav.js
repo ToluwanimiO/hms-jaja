@@ -20,7 +20,8 @@ export default function SideNav() {
         priority
       />
       {navItems.map((item,index)=>(
-        <Link key={index} href={`/client/${item.toLowerCase()}`} className={`${pathname == `/client/${item.toLowerCase()}` ? styles.activeNav : ""} ${styles.iconDiv}`}>
+        <Link key={index} href={`/client/${item.toLowerCase()}`} className={`${item.toLowerCase() == `profile` ? styles.activeNav : ""} ${styles.iconDiv}`}>
+       {/* className={`${pathname == `/client/${item.toLowerCase()}` ? styles.activeNav : ""} */}
         <Image
           className={styles.icon}
           src={`/${item}.svg`}

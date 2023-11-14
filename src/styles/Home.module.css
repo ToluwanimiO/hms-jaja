@@ -256,7 +256,7 @@
 }
 .btnForm {
   display: block;
-  /* background-color: #7FA1E5; */
+  background-color: #7FA1E5;
   border-radius: 30px;
   height: 41px;
   margin-bottom: 40px;
@@ -273,7 +273,7 @@
 }
 .activeNav{
   color: #AEC4EF !important;
-  /* background-color: white; */
+  background-color: white;
   margin-left: 0rem !important;
   margin-right: 0rem !important;
   }
@@ -290,10 +290,10 @@
 .sideBar{
   width: 20%;
   /* height: 100vh; */
-  /* background-color: #7FA1E5; */
+  background-color: #7FA1E5;
 }
 .sideBarUser{
-  /* background-color: #9EB8EB; */
+  background-color: #9EB8EB;
   width: 20%;
   text-align: center
 }

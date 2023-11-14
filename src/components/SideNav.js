@@ -13,7 +13,7 @@ export default function SideNav() {
     <header className={styles.sideBarUser}>
     <Image
         className={styles.sideNavLogo}
-        src="/ui-logo.svg"
+        src="/ui_logo.svg"
         alt="UI Logo"
         width={120}
         height={37}

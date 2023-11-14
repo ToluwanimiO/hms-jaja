@@ -7,6 +7,18 @@
   min-height: 100vh;
   width: 100%
 }
+.heading {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.readBtn{
+  border: solid 1px #2B8C34;
+  border-radius: 8px;
+  color: #2B8C34;
+  padding: 10px;
+  cursor:pointer;
+}
 .profileMain {
   display: flex;
   justify-content: space-between;
@@ -53,6 +65,47 @@
   border: 1px solid rgba(var(--callout-border-rgb), 0.3);
   border-radius: var(--border-radius);
 }
+/* DROPDOWN */
+.dropbtn {
+  /* background-color: #4CAF50;
+  color: white; */
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdownContent {
+  display: none;
+  position: absolute;
+  /* background-color: #f9f9f9; */
+  min-width: 160px;
+  /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdownContent a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.textBlack{
+  color: black
+}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdownContent {
+  display: block;
+}
+
 .mt-5{
   margin-top:5px;
 }
@@ -271,6 +324,21 @@
   height: 30px;
   margin-bottom:5px;
 }
+.iconMini{
+  width: 20px;
+  height: 20px;
+  margin-right:2rem;
+}
+.pt10{
+  padding-top:10px;
+}
+.notificationsection{
+  padding-top:30px;
+  color: #344335
+}
+.notificationDetails{
+  line-height: 35px
+}
 .activeNav{
   color: #AEC4EF !important;
   background-color: white;
@@ -286,7 +354,16 @@
   font-size: 12px; 
   display: block;
 }
-
+.userInfo{
+  background-color: #7FA1E5;
+  padding: 7px;
+  color: white;
+  border-radius: 50%;
+}
+.w100{
+  width: 100%;
+  padding:2rem 3rem;
+}
 .sideBar{
   width: 20%;
   /* height: 100vh; */

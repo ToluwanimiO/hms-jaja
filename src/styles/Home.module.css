@@ -7,6 +7,10 @@
   min-height: 100vh;
   width: 100%
 }
+.main2{
+  display: block;
+  margin-top: 1.5em;
+}
 .heading {
   display: flex;
   justify-content: space-between;
@@ -35,6 +39,7 @@
 .flex{
   display: flex;
 }
+
 .block{
   display: block;
   width: 100%
@@ -180,6 +185,99 @@
 }
 .alignCenter{
   text-align: center;
+}
+
+.btnBooking{
+  display: flex;
+  width: 137px;
+  /* margin-bottom: -50px; */
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  background: #9EB8EB;
+  justify-content: center;
+  align-items: center;
+  color: #FFF;
+  cursor: pointer;
+  /* gap: 8px; */
+}
+.btnModal{
+  display: flex;
+  /* position:absolute;
+  right: 10em; */
+  width: 137px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  /* background: #9EB8EB; */
+  justify-content: start;
+  align-items: center;
+  color: #FFF;
+  cursor: pointer;
+  border-radius: 40px;
+  gap: 10px
+}
+.attach{
+  position: absolute;
+  right: 150px;
+  bottom: -14px;
+  background: #FFF;
+  color:#9EB8EB;
+  margin-bottom: -50px;
+}
+.modalSubmit{
+  position: absolute;
+  right: 10px;
+  bottom: -4px;
+  border-radius: 8px;
+  border-left: 2px solid #FFF;
+  margin-bottom: -50px;
+  /* background: #9EB8EB; */
+}
+.modalClose{
+  background: #9EB8EB;
+}
+/* .modelMain{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+} */
+.modalForm{
+  display: flex;
+height: 69px;
+border: none;
+outline: none;
+flex-direction: column;
+align-items: flex-start;
+gap: 4px;
+align-self: stretch;
+margin: 1.5em;
+}
+.modalForm > label{
+  color: var(--neutral-secondary-80, #344335);
+
+/* Heading/14/Regular */
+font-family: Urbanist;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px; /* 128.571% */
+}
+.modalForm > input{
+  display: flex;
+padding: 12px 16px;
+align-items: flex-start;
+gap: 8px;
+flex: 1 0 0;
+align-self: stretch;
+border-radius: 8px;
+border: 1px solid var(--neutral-secondary-50, #96A397);
+background: var(--White, #FFF);
+}
+.inlineStyle{
+  display: inline;
 }
 .center {
   display: flex;

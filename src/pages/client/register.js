@@ -7,7 +7,7 @@ import Header from '../../components/Header';
 
 const inter = Inter({ subsets: ['latin'] })
 
-export default function Login() {
+export default function Register() {
   return (
     <>
       <Header/>
@@ -27,23 +27,30 @@ export default function Login() {
             />
             <p className={`${styles.bold} ${styles.mt-5}`}>The <br/> University Health Service</p>
           </div>
-          
+          <br/>
           <form>
+          <div className={styles.formGroup}>
+                <label>Full Name </label>
+                <input />
+            </div>
             <div className={styles.formGroup}>
                 <label>Jaja Card Number </label>
+                <input />
+            </div>
+            <div className={styles.formGroup}>
+                <label>Phone Number </label>
                 <input />
             </div>
             <div className={styles.formGroup}>
                 <label>Password </label>
                 <input type="password"/>
             </div>
-            <p className={`${styles.blueText} ${styles.alignCenter}`}>Forgot your password?</p>
             <button className={styles.btnForm}>
-              <Link href="/client/profile">Login</Link>
+              <Link href="/client/profile">Sign up</Link>
             </button>
-            <span className={styles.bold}>Don't have an account?</span>
+            <span className={styles.bold}>Already have an account?</span>
             <span className={styles.blueText}>
-              <Link href="/client/register"> Create one here</Link>
+              <Link href="/client/login"> Log in</Link>
             </span>
           </form>
         </div>

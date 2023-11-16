@@ -43,12 +43,12 @@ export default function Notification() {
               />
             </div>
             <div className={styles.heading}>
-            <div className={styles.notificationDetails}>
-              <p className={styles.bold}>Payment Successful</p>
-              <p>You have successfully made a payment for Pharmaceutical drugs</p>
-              <p className={styles.textBlack}>Now</p>
-            </div>
-            <div><button className={styles.readBtn}>Mark as Read</button></div>
+              <div className={styles.notificationDetails}>
+                <p className={styles.bold}>Payment Successful</p>
+                <p>You have successfully made a payment for Pharmaceutical drugs</p>
+                <p className={styles.textBlack}>Now</p>
+              </div>
+              <div><button className={styles.readBtn}>Mark as Read</button></div>
             </div>
           </div>
           <div className={styles.flex}>

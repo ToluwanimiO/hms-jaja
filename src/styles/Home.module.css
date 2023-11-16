@@ -462,6 +462,9 @@ background: var(--White, #FFF);
   width: 100%;
   padding:2rem 3rem;
 }
+.w50{
+  width: 30%;
+}
 .sideBar{
   width: 20%;
   /* height: 100vh; */

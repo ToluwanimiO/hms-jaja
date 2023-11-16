@@ -29,12 +29,12 @@ export default function Home() {
         </div>
 
         <div className={styles.menu}> 
-            <div className={styles.menuClient}>
-              <Link href="/client/login" className={styles.client}>Client</Link>
-            </div>
-            <div className={styles.menuAdmin}>
-              <Link href="/client/login" className={styles.admin}>Admin</Link>
-            </div>
+        <Link href="/client/login" className={styles.client}><div className={styles.menuClient}>
+              Client
+            </div></Link>
+            <Link href="/admin/login" className={styles.admin}><div className={styles.menuAdmin}>
+              Admin
+            </div></Link>
         </div>
 
         

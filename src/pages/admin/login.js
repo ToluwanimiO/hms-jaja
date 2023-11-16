@@ -38,9 +38,9 @@ export default function Login() {
                 <input type="password"/>
             </div>
             {/* <p className={`${styles.blueText} ${styles.alignCenter}`}>Forgot your password?</p> */}
-            <button className={styles.btnForm}>
-              <Link href="/admin/profile">Login</Link>
-            </button>
+            <Link href="/admin/profile"><button className={styles.btnForm}>
+              Login
+            </button></Link>
           </form>
         </div>
      </main>

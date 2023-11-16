@@ -23,6 +23,19 @@
   padding: 10px;
   cursor:pointer;
 }
+.addBtn{
+  display: flex;
+  /* margin-bottom: -50px; */;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background: #9EB8EB;
+  justify-content: center;
+  align-items: center;
+  color: #FFF;
+  cursor: pointer;
+  font-size: 17px
+}
 .profileMain {
   display: flex;
   justify-content: space-between;

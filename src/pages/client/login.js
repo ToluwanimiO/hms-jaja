@@ -37,7 +37,7 @@ export default function Login() {
                 <label>Password </label>
                 <input type="password"/>
             </div>
-            <p className={`${styles.blueText} ${styles.alignCenter}`}>Forgot your password?</p>
+            {/* <p className={`${styles.blueText} ${styles.alignCenter}`}>Forgot your password?</p> */}
             <button className={styles.btnForm}>
               <Link href="/client/profile">Login</Link>
             </button>

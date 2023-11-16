@@ -42,7 +42,7 @@ export default function SideNav() {
           height={37}
           priority
         />
-        <p>Logout</p>
+        <p><Link href="/">Logout</Link></p>
         </div>
     </header>
   );

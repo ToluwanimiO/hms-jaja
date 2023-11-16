@@ -15,7 +15,7 @@ export default function Appointment() {
       <main className={`${styles.flex} ${inter.className}`}>
         <SideNav/>
         <div className={styles.w100}>
-          <div className= {`${styles.textLight} ${styles.fontLg } ${styles.w100}`}>Appointments</div>
+          <div className= {`${styles.textLight} ${styles.fontLg }`}>Appointments</div>
           <div className={styles.main2} >
             <div className={styles.btnBooking}><AppointmentModal /></div>
           </div>
@@ -26,7 +26,7 @@ export default function Appointment() {
               <Image
                 className={styles.iconMini}
                 src="/appointment-img.png"
-                alt="UI Logo"
+                alt="Appointment"
                 width={20}
                 height={20}
                 priority
@@ -41,7 +41,7 @@ export default function Appointment() {
                 <p>Time: 9:00am</p>
                 <p className={styles.textBlack}>9.00pm</p>
               </div>
-              <div><button className={styles.readBtn}>Remind Me</button></div>
+              {/* <div><button className={styles.readBtn}>Remind Me</button></div> */}
             </div>
           </div>
           
